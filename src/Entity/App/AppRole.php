@@ -11,7 +11,7 @@ namespace App\Entity\App;
 /**
  * Description of Roles
  *
- * @author BMHB8456
+ * @author <joelpatrickndzie@gmail.com>
  */
 class AppRole {
     //put your code here
@@ -20,6 +20,10 @@ class AppRole {
     
     private $description;
     
+    /**
+     * when true, this role is assigned to every users by default
+     * @var boolean
+     */
     private $isDefault;
     
     
